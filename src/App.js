@@ -37,9 +37,9 @@ class App extends React.Component{
             id: snapShot.id,  
             ...snapShot.data()}
             }
-            ,() => {
-             console.log(this.state)    //setState is asynchronous, so when logging it in the console include that in a callback
-          }
+          //   ,() => {
+          //    console.log(this.state)    //setState is asynchronous, so when logging it in the console include that in a callback
+          // }
           )
         })
       }
